@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./chuj.css">
+</head>
+<body>
+    <div class="top">
+        <div class="buttons">
+            <button onclick="showCurrency('ethereum')">ETHEREUM</button>
+            <button onclick="showCurrency('bitcoin')">BITCOIN</button>
+            <button onclick="showCurrency('cardano')">CARDANO</button>
+        </div>
+        <div class="dzisiejsze"></div>
+           
+        <div class="inputs">
+            <form><input type="text" name="coin" id="coin" placeholder="coin"><button id="coinButton">SZUKAJ</button></form>
+            <form><input type="text" name="stonk" id="stonk" placeholder="stonk"><button id="stonkButton">SZUKAJ</button></form>
+        </div>
+            <button class="generator" onclick="porada()">Generator liczb losowych</button> 
+    </div>
+
+
+    <div class="info">
+
+    <div id="canvasStore"></div>
+
+    </div>
+    <div id="buttonstore"></div>
+    All crypto data provided by CoinGeco API
+    All stonk data provided by Alpha Vantage API
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+
+</script>
+
+ 
+
+ 
+    <script src="./chuj.js"></script>
+</html>
+
+
